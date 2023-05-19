@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#home{
+    height: 100vh;
+    background-image: url(imgs/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.home-content {
+    position: relative;
+    z-index: 99999999999999999;
+}
+.home-content h1{
+font-size: 60px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 66px;
+font-weight: 500;
+color: white;
+}
+.home-content p{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rgba(214, 46, 51, 0.6);
+    z-index: 999999999;
+
+}
+.icn{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+    transition: all .6s;
+}
+.side-bar{
+ z-index: 9999999999999;
+position: absolute;
+height: 100vh;
+bottom: 0;
+width: 15%;
+background-color: #414658;
+}
+ul{
+    padding: 20px;
+    margin-top: 40px;
+    padding-top: 35px;
+
+}
+.side-bar li,a{
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height:80px;
+    font-weight: 400;
+color: white;
+transition: all .6s;
+}
+.icn:hover{
+    color: rgba(214, 46, 51, 0.6);
+}
+.side-bar li,a:hover{
+    color: rgba(214, 46, 51, 0.6);
+}
+.open{
+    margin-left: 3px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: 205px;
+    top: 50%;
+    width: 50%;
+font-weight: 500;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+cursor: pointer;
+}
+.open i{
+    margin-top: 5px;
+}
+.singerOne{
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+
+}
+.head{
+    background-color: #e68285;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.body{
+    padding: 30px;
+    background-color:#ccc;
+}
+.head h2{
+    color: white;
+    width: 30%;
+  font-size: 25px;
+}
+.head2{
+    background-color: #e68285;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.body2{
+    padding: 30px;
+    background-color:#ccc;
+}
+.head2 h2{
+    color: white;
+    width: 30%;
+  font-size: 25px;
+}
+.head3{
+    background-color: #e68285;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.body3{
+    padding: 30px;
+    background-color:#ccc;
+}
+.head3 h2{
+    color: white;
+    width: 30%;
+  font-size: 25px;
+}
+.head4{
+    background-color: #e68285;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.body4{
+    padding: 30px;
+    background-color:#ccc;
+}
+.head4 h2{
+    color: white;
+    width: 30%;
+  font-size: 25px;
+}
+.container{
+    padding-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 30px;
+    position: relative;
+}
+.box{
+    border: 1px solid white;
+    padding: 50px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    
+}
+.countDown{
+    padding: 50px;
+    background-image: url(imgs/invitation-2508607__340.jpg);
+    position: relative;
+}
+.layer2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+   
+
+}
+.lastSec h2{ 
+font-family: Arial, Helvetica, sans-serif;
+font-size:35px ;
+font-weight: 700;
+color: #444444;
+line-height: 39px;
+}
+.lastSec p,li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    list-style: none;
+
+}
+.lastSec h5{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #444444;
+}
+.ul-info i{
+    margin-right: 15px;
+    line-height: 80px;
+}
+.ul-info span{
+    color: #d62e33;
+}
+.p11{
+    padding-top: 100px;
+}
+.colInfo{
+    margin-bottom: 0;
+}
+.ul-info{
+    margin-top: 0;
+    padding-top: 5px;
+}
+.icnsList{
+    margin-top: 0;
+    padding-top: 0;;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.liIcn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #777777;
+    color: #777777;
+}
+.liIcn:hover{
+    border-color: #d62e33;
+    background-color: #d62e33;
+    color: white;
+}
+input {
+    width: 100%;
+    height: 35px;
+    margin: 10px;
+    border: 1px gray solid;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px;
+    border: 1px gray solid;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+button{
+    padding: 10px 25px;
+    background-color: #d62e33;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-left: 10px;
+}
+.span1{
+    color: #d62e33;
+}
